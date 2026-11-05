@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秘密研究所最新地址发布页-秘密研究所地址_发布页入口_最新访问说明_地址变动公告</title>
+<meta name="description" content="秘密研究所最新地址发布页，整理秘密研究所地址变动、发布页入口识别、最新访问说明与常见问题，帮助访问者理解地址发布页的作用、辨别信息真伪、掌握正确的访问与安全注意事项，避免误入仿冒页面。">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b2436'/%3E%3Ccircle cx='32' cy='30' r='14' fill='none' stroke='%23e8b04b' stroke-width='4'/%3E%3Cpath d='M20 48h24' stroke='%23e8b04b' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='30' r='5' fill='%23e8b04b'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --ink:#1b2436;
+    --ink-soft:#3a465c;
+    --paper:#f4f1ea;
+    --paper-2:#fbf9f4;
+    --line:#d8d2c4;
+    --accent:#b8862f;
+    --accent-2:#8a5f1c;
+    --notice:#7a3b2e;
+    --radius:10px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.85;
+    font-size:16px;
+  }
+  a{color:var(--accent-2);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px;}
+
+  /* 顶部栏 */
+  .topbar{
+    background:var(--ink);
+    color:#e9e4d8;
+    border-bottom:3px solid var(--accent);
+  }
+  .topbar .wrap{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:18px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap;
+  }
+  .brandline{display:flex;align-items:center;gap:12px;}
+  .brandmark{
+    width:40px;height:40px;flex:0 0 40px;border-radius:9px;
+    background:var(--accent);color:var(--ink);
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:18px;letter-spacing:-1px;
+  }
+  .brandname{font-size:19px;font-weight:700;letter-spacing:.5px;}
+  .brandsub{font-size:12px;color:#b8b1a1;letter-spacing:1px;}
+  .topnav{display:flex;gap:8px;flex-wrap:wrap;font-size:14px;}
+  .topnav a{
+    color:#e9e4d8;padding:6px 12px;border:1px solid #4a5568;
+    border-radius:20px;transition:background .2s,border-color .2s;
+  }
+  .topnav a:hover{background:#2b3648;border-color:var(--accent);text-decoration:none;}
+
+  /* 首屏 */
+  .hero{
+    background:linear-gradient(180deg,#fbf9f4 0%,var(--paper) 100%);
+    border-bottom:1px solid var(--line);
+    padding:44px 0 40px;
+  }
+  .hero-inner{display:grid;grid-template-columns:1.6fr 1fr;gap:36px;align-items:start;}
+  .kicker{
+    display:inline-block;font-size:12px;letter-spacing:2px;
+    color:var(--accent-2);background:#efe6d2;border:1px solid #e0d3b4;
+    padding:3px 12px;border-radius:4px;margin-bottom:14px;
+  }
+  h1{
+    font-size:34px;line-height:1.35;margin:0 0 16px;
+    letter-spacing:-.5px;font-weight:800;
+  }
+  .tagline{font-size:16px;color:var(--ink-soft);margin:0 0 20px;}
+  .hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+  .btn{
+    display:inline-block;padding:11px 22px;border-radius:6px;font-weight:700;
+    font-size:15px;border:1px solid transparent;
+  }
+  .btn-main{background:var(--ink);color:#f4f1ea;}
+  .btn-main:hover{background:#2b3648;text-decoration:none;}
+  .btn-ghost{background:transparent;color:var(--ink);border-color:var(--ink);}
+  .btn-ghost:hover{background:#e7e1d3;text-decoration:none;}
+
+  .statusbox{
+    background:var(--paper-2);border:1px solid var(--line);
+    border-top:4px solid var(--accent);border-radius:var(--radius);
+    padding:20px 22px;
+  }
+  .statusbox h2{font-size:15px;margin:0 0 12px;letter-spacing:1px;color:var(--ink-soft);}
+  .statuslist{list-style:none;margin:0;padding:0;font-size:14px;}
+  .statuslist li{
+    display:flex;justify-content:space-between;gap:10px;
+    padding:9px 0;border-bottom:1px dashed var(--line);
+  }
+  .statuslist li:last-child{border-bottom:none;}
+  .stat-key{color:#5b6678;}
+  .stat-val{font-weight:700;color:var(--ink);text-align:right;}
+  .stat-val.warn{color:var(--notice);}
+
+  /* 主体 */
+  main{padding:8px 0 10px;}
+  section.block{padding:40px 0 8px;}
+  .sec-head{margin-bottom:22px;}
+  .sec-head h2{
+    font-size:24px;margin:0 0 8px;font-weight:800;letter-spacing:-.3px;
+    padding-left:14px;border-left:5px solid var(--accent);
+  }
+  .sec-head p{margin:0;color:#5b6678;font-size:15px;padding-left:19px;}
+  .prose p{margin:0 0 16px;color:var(--ink-soft);}
+  .prose strong{color:var(--ink);}
+
+  .note{
+    background:#f7ede0;border:1px solid #e6d2b4;border-left:5px solid var(--notice);
+    border-radius:var(--radius);padding:16px 20px;margin:22px 0;
+    font-size:15px;color:#5c3b30;
+  }
+  .note b{color:var(--notice);}
+
+  /* 分类卡片 */
+  .entry-list{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:6px;}
+  .entry{
+    background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px 22px;transition:border-color .2s,transform .2s;
+  }
+  .entry:hover{border-color:var(--accent);transform:translateY(-2px);}
+  .entry h3{font-size:17px;margin:0 0 8px;font-weight:700;}
+  .entry .tag{
+    display:inline-block;font-size:12px;color:var(--accent-2);
+    background:#f0e6d0;border-radius:3px;padding:1px 8px;margin-bottom:10px;
+  }
+  .entry p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* 步骤 */
+  .steps{counter-reset:step;list-style:none;margin:0;padding:0;}
+  .steps li{
+    counter-increment:step;position:relative;padding:0 0 22px 56px;
+    border-left:2px solid var(--line);margin-left:18px;
+  }
+  .steps li:last-child{border-left-color:transparent;padding-bottom:0;}
+  .steps li::before{
+    content:counter(step);position:absolute;left:-19px;top:0;
+    width:36px;height:36px;border-radius:50%;
+    background:var(--ink);color:#f4f1ea;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:700;font-size:15px;
+  }
+  .steps h3{font-size:16.5px;margin:4px 0 6px;}
+  .steps p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* 两栏布局 */
+  .two-col{display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:start;}
+
+  /* 判断清单 */
+  .checklist{list-style:none;margin:0;padding:0;}
+  .checklist li{
+    padding:12px 0 12px 32px;position:relative;font-size:15px;
+    border-bottom:1px dashed var(--line);color:var(--ink-soft);
+  }
+  .checklist li:last-child{border-bottom:none;}
+  .checklist li::before{
+    content:"✔";position:absolute;left:0;top:12px;color:var(--accent);
+    font-weight:700;
+  }
+  .checklist.danger li::before{content:"✕";color:var(--notice);}
+
+  /* 表格 */
+  .cmp{width:100%;border-collapse:collapse;font-size:14.5px;background:var(--paper-2);}
+  .cmp th,.cmp td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top;}
+  .cmp thead th{background:#eae3d4;font-weight:700;color:var(--ink);}
+  .cmp tbody th{background:#f4efe3;font-weight:700;width:26%;color:var(--ink);}
+
+  /* FAQ */
+  .faq-item{
+    background:var(--paper-2);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 22px;margin-bottom:12px;
+  }
+  .faq-item h3{font-size:16px;margin:0 0 8px;font-weight:700;color:var(--ink);}
+  .faq-item p{margin:0;font-size:14.5px;color:var(--ink-soft);}
+
+  /* CTA */
+  .cta{
+    background:var(--ink);color:#e9e4d8;border-radius:var(--radius);
+    padding:36px 34px;margin:46px 0 10px;text-align:center;
+  }
+  .cta h2{margin:0 0 12px;font-size:24px;color:#f4f1ea;}
+  .cta p{margin:0 auto;max-width:640px;color:#c4bdae;font-size:15px;}
+
+  /* 页脚 */
+  footer{
+    background:#141b28;color:#9aa2b0;font-size:13.5px;
+    padding:34px 0;margin-top:40px;line-height:1.9;
+  }
+  footer .wrap{display:grid;grid-template-columns:1.6fr 1fr;gap:28px;}
+  footer h4{color:#d9d2c2;font-size:14px;margin:0 0 10px;letter-spacing:1px;}
+  footer p{margin:0 0 8px;}
+  footer a{color:#b8b1a1;}
+  .foot-links{display:flex;flex-direction:column;gap:6px;}
+
+  @media (max-width:860px){
+    .hero-inner,.two-col,footer .wrap{grid-template-columns:1fr;}
+    h1{font-size:27px;}
+    .entry-list{grid-template-columns:1fr;}
+    .topbar .wrap{flex-direction:column;align-items:flex-start;}
+    .statusbox{margin-top:4px;}
+  }
+  @media (max-width:520px){
+    body{font-size:15px;}
+    h1{font-size:23px;}
+    .hero{padding:30px 0 28px;}
+    .sec-head h2{font-size:20px;}
+    .entry{padding:16px 16px;}
+    .cta{padding:26px 20px;}
+    .steps li{padding-left:46px;margin-left:16px;}
+    .cmp{font-size:13px;}
+    .cmp th,.cmp td{padding:9px 10px;}
+  }
+</style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brandline">
+      <div class="brandmark">密研</div>
+      <div>
+        <div class="brandname">秘密研究所地址发布页</div>
+        <div class="brandsub">ADDRESS NOTICE BOARD</div>
+      </div>
+    </div>
+    <nav class="topnav" aria-label="页面导航">
+      <a href="#what">发布页说明</a>
+      <a href="#types">地址分类</a>
+      <a href="#verify">核对方法</a>
+      <a href="#risk">安全提醒</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="kicker">地址变动 · 访问说明</span>
+        <h1>秘密研究所最新地址发布页</h1>
+        <p class="tagline">集中说明秘密研究所地址发布页的作用、最新访问说明的核对方式与识别仿冒页面的要点，帮助访问者少走弯路。</p>
+        <div class="hero-actions">
+          <a class="btn btn-main" href="#verify">查看核对方法</a>
+          <a class="btn btn-ghost" href="#risk">安全提醒</a>
+        </div>
+      </div>
+      <aside class="statusbox" aria-label="页面信息概览">
+        <h2>页面信息概览</h2>
+        <ul class="statuslist">
+          <li><span class="stat-key">页面性质</span><span class="stat-val">地址说明与信息整理</span></li>
+          <li><span class="stat-key">核心内容</span><span class="stat-val">地址发布页识别方法</span></li>
+          <li><span class="stat-key">适用人群</span><span class="stat-val">查找访问入口的访客</span></li>
+          <li><span class="stat-key">站外跳转</span><span class="stat-val warn">本页不提供外链</span></li>
+          <li><span class="stat-key">信息时效</span><span class="stat-val warn">以权威来源为准</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="block wrap" id="what">
+    <div class="sec-head">
+      <h2>秘密研究所地址发布页到底解决什么问题</h2>
+      <p>先弄清“发布页”是什么，再决定要不要继续查找。</p>
+    </div>
+    <div class="prose">
+      <p>所谓地址发布页，本质是一类用于集中公告访问地址变动情况的说明页面。当站点域名发生调整、原访问路径失效，或者需要告知访客新的访问方式时，运营方通常会设置一个相对稳定的公告页面，用来持续更新地址信息。搜索“秘密研究所最新地址发布页”的访问者，多数是在原有入口无法打开后，希望找到一个仍然有效的说明页面。</p>
+      <p>需要明确的是，秘密研究所最新地址发布页本身并不是内容页面，它的价值在于“告知”，而不是“提供”。一个合格的发布页应当写清楚：本次变动涉及哪些地址、旧地址是否停用、新地址何时生效、遇到打不开的情况该如何处理。如果页面上只有一句“点击进入”或大量闪烁广告，那么它很可能并不是真正的发布页。</p>
+      <p>本页面围绕秘密研究所最新地址发布页这一主题，整理发布页的常见结构、地址信息的分类方式、核对真伪的步骤以及访问过程中的安全注意事项。我们不提供任何可直接跳转的外部地址，也不对第三方地址的有效性作出承诺，相关内容以你自行核实的官方公告为准。</p>
+      <p>理解发布页的定位之后，你会发现它的信息量通常不大，但每一条都关系到能否顺利访问。因此阅读秘密研究所最新地址发布页时，重点应放在“变动说明”和“生效时间”这两个字段上，而不是被页面上的其他装饰性内容分散注意力。</p>
+    </div>
+    <div class="note">
+      <b>提示：</b>地址发布页属于信息公告性质，任何要求输入账号密码、支付费用或下载安装包的“发布页”，都应先视为可疑页面处理。
+    </div>
+  </section>
+
+  <section class="block wrap" id="types">
+    <div class="sec-head">
+      <h2>地址信息的常见分类与各自用途</h2>
+      <p>同一个发布页上可能同时出现多种地址，用途并不相同。</p>
+    </div>
+    <div class="entry-list">
+      <article class="entry">
+        <span class="tag">主入口</span>
+        <h3>主访问地址</h3>
+        <p>发布页通常会把当前主要使用的访问地址放在最显眼位置，并标注生效时间。这类地址变动频率相对较低，是访客日常访问的首选参考。</p>
+      </article>
+      <article class="entry">
+        <span class="tag">备用</span>
+        <h3>备用访问地址</h3>
+        <p>当主地址因网络或维护原因暂时不可用时，备用地址可作为过渡方案。备用地址往往有明确的启用条件，不宜在主地址正常时随意切换。</p>
+      </article>
+      <article class="entry">
+        <span class="tag">历史</span>
+        <h3>历史地址与停用说明</h3>
+        <p>部分发布页会列出已停用的旧地址，并注明停用原因和停用时间。看到这类信息时，应避免继续使用已标注停用的地址。</p>
+      </article>
+      <article class="entry">
+        <span class="tag">公告</span>
+        <h3>变动公告与生效时间</h3>
+        <p>公告区用于说明本次调整的范围与时间节点。阅读秘密研究所最新地址发布页时，先看公告日期，再看生效时间，能快速判断信息是否仍然有效。</p>
+      </article>
+      <article class="entry">
+        <span class="tag">联系</span>
+        <h3>反馈与纠错渠道</h3>
+        <p>规范的发布页会提供纠错或反馈方式，用于报告地址失效。若页面完全没有反馈渠道，信息更新往往缺乏保障，需要谨慎对待。</p>
+      </article>
+      <article class="entry">
+        <span class="tag">说明</span>
+        <h3>访问条件与限制说明</h3>
+        <p>有些地址仅对特定网络环境或特定设备开放，发布页会用文字说明这些限制。提前了解限制条件，可以减少无效尝试。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="block wrap" id="verify">
+    <div class="sec-head">
+      <h2>核对秘密研究所最新地址发布页的四个步骤</h2>
+      <p>按顺序核对，比盲目点击更可靠。</p>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3>第一步：确认页面来源</h3>
+        <p>先判断你打开的是否为长期存在的公告页面。发布页一般结构简单、更新记录清晰；若页面域名与历史记录完全不符，应提高警惕。</p>
+      </li>
+      <li>
+        <h3>第二步：核对公告时间</h3>
+        <p>查看页面上标注的公告日期与更新时间。没有时间信息的发布页无法判断新鲜度，搜索“最新地址”时尤其要注意这一点。</p>
+      </li>
+      <li>
+        <h3>第三步：比对多个信息点</h3>
+        <p>把发布页上的地址、生效时间、停用说明与你在其他渠道看到的信息交叉比对。多个独立来源说法一致时，可信度才会提升。</p>
+      </li>
+      <li>
+        <h3>第四步：观察页面行为</h3>
+        <p>正常的发布页以文字说明为主。若页面强制跳转、反复弹窗、要求安装插件或索要个人信息，应立即停止操作并关闭页面。</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="block wrap" id="risk">
+    <div class="two-col">
+      <div>
+        <div class="sec-head">
+          <h2>访问地址发布页时的安全注意事项</h2>
+          <p>发布页是信息中转站，也常被仿冒，安全边界要提前划清。</p>
+        </div>
+        <div class="prose">
+          <p>搜索秘密研究所最新地址发布页的人，往往处于“原地址打不开”的焦虑状态，这种状态最容易被利用。仿冒者会制作外观相似的页面，通过诱导点击把访客引向其他站点。因此在任何情况下，都不要因为“急”而跳过核对步骤。</p>
+          <p>其次，要区分“说明”与“入口”。真正的发布页只告诉你地址是什么，不会替你完成登录，也不会要求你填写手机号、验证码或支付信息。凡是把说明和敏感操作混在一起的页面，都不符合发布页的常规形态。</p>
+          <p>另外，浏览器提示的证书异常、域名拼写错误、页面加载后立即跳转，都是常见风险信号。遇到这些情况，最稳妥的做法是回到你此前确认过的可靠渠道重新获取信息，而不是在当前页面继续尝试。</p>
+        </div>
+        <ul class="checklist">
+          <li>只把发布页当作信息参考，不当作登录或支付入口</li>
+          <li>核对域名拼写，注意形近字母与多余后缀</li>
+          <li>不下载来源不明的安装包或浏览器插件</li>
+          <li>不向任何页面提供验证码、密码与支付信息</li>
+        </ul>
+        <ul class="checklist danger">
+          <li>页面自动跳转到与主题无关的站点</li>
+          <li>以“解锁最新地址”为由索要个人信息</li>
+          <li>公告时间缺失或长期不更新却标称最新</li>
+        </ul>
+      </div>
+      <aside>
+        <div class="sec-head">
+          <h2>信息判断对照表</h2>
+          <p>用两列对比快速识别页面性质。</p>
+        </div>
+        <table class="cmp">
+          <thead>
+            <tr><th>判断维度</th><th>规范发布页</th><th>可疑页面</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>内容主体</th><td>文字公告与时间说明</td><td>大量广告与诱导按钮</td></tr>
+            <tr><th>时间信息</th><td>标注公告与生效时间</td><td>无时间或时间混乱</td></tr>
+            <tr><th>交互要求</th><td>仅阅读，无需操作</td><td>要求登录、付费、下载</td></tr>
+            <tr><th>跳转行为</th><td>无强制跳转</td><td>自动跳转、频繁弹窗</td></tr>
+            <tr><th>反馈渠道</th><td>提供纠错说明</td><td>无任何反馈方式</td></tr>
+          </tbody>
+        </table>
+      </aside>
+    </div>
+  </section>
+
+  <section class="block wrap">
+    <div class="sec-head">
+      <h2>如何持续跟踪地址变动</h2>
+      <p>与其每次临时搜索，不如建立自己的信息核对习惯。</p>
+    </div>
+    <div class="prose">
+      <p>频繁搜索秘密研究所最新地址发布页，说明你缺少一个稳定的信息记录方式。建议在首次确认可靠信息后，把公告页面的特征、公告日期和地址分类记录下来，下次变动时可以直接比对差异，而不必从头判断。</p>
+      <p>同时要留意，地址变动公告往往有先后顺序：先发布预告，再正式生效，最后标注旧地址停用。如果你看到的信息跳过了预告阶段，直接宣称“立即切换”，就值得多核实一次。发布页的更新节奏本身就是判断信息可靠性的线索。</p>
+      <p>对于长期关注秘密研究所最新地址发布页的访客，建议固定一到两个可信渠道作为参照，避免在多个来源之间反复横跳。信息来源越分散，越容易混入仿冒页面，反而增加判断成本。</p>
+    </div>
+    <ul class="checklist">
+      <li>记录公告日期与生效时间，形成时间线</li>
+      <li>区分主入口、备用入口与已停用地址</li>
+      <li>变动期间减少不必要的重复访问</li>
+      <li>发现异常及时通过正规反馈渠道说明</li>
+    </ul>
+  </section>
+
+  <section class="block wrap" id="faq">
+    <div class="sec-head">
+      <h2>关于秘密研究所最新地址发布页的常见问题</h2>
+      <p>整理访问者最常提出的疑问。</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>秘密研究所最新地址发布页是官网吗？</h3>
+      <p>不能简单等同。发布页通常只是用于公告地址变动的说明页面，是否属于官方渠道需要以运营方公开信息为准。本页面仅整理发布页的通用识别方法，不代表任何官方身份。</p>
+    </div>
+    <div class="faq-item">
+      <h3>为什么搜索到的地址发布页说法不一致？</h3>
+      <p>地址变动存在时间差，不同页面抓取或更新的时间不同，就会出现说法不一。判断时应以标注了明确公告日期和生效时间的信息为主，并与其他独立来源交叉核对。</p>
+    </div>
+    <div class="faq-item">
+      <h3>发布页上没有写更新时间怎么办？</h3>
+      <p>缺少时间的发布页无法判断信息是否仍然有效。遇到这种情况，不建议直接采用页面上的地址，应回到此前确认过的可靠渠道重新获取信息。</p>
+    </div>
+    <div class="faq-item">
+      <h3>打开发布页后自动跳转，正常吗？</h3>
+      <p>不正常。规范的地址发布页以阅读为主，不会强制跳转。自动跳转、频繁弹窗或要求安装软件，都属于需要警惕的行为，建议立即关闭页面。</p>
+    </div>
+    <div class="faq-item">
+      <h3>访问秘密研究所最新地址发布页需要注意什么？</h3>
+      <p>核心是三条：不输入账号密码等敏感信息、不下载来源不明的文件、不因页面催促而跳过核对步骤。把发布页当作信息参考，而不是操作入口。</p>
+    </div>
+    <div class="faq-item">
+      <h3>本页面会提供可直接点击的地址吗？</h3>
+      <p>不会。本页面只整理秘密研究所最新地址发布页的相关说明与核对方法，不提供外部跳转地址，也不对任何第三方地址的有效性作出保证。</p>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="cta">
+      <h2>先核对，再访问</h2>
+      <p>地址会变，判断方法不变。把公告时间、地址分类和页面行为三项核对清楚，再决定是否继续操作，比反复搜索“秘密研究所最新地址发布页”更有效率。</p>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h4>关于本页</h4>
+      <p>本页围绕秘密研究所最新地址发布页整理发布页的通用结构、地址分类、核对步骤与安全注意事项，属于信息说明与导航性质的内容页面。</p>
+      <p>页面不提供外部跳转地址，不承诺任何第三方地址的有效性，相关内容请以你自行核实的可靠来源为准。</p>
+    </div>
+    <div>
+      <h4>页内导航</h4>
+      <div class="foot-links">
+        <a href="#what">发布页说明</a>
+        <a href="#types">地址分类</a>
+        <a href="#verify">核对方法</a>
+        <a href="#risk">安全提醒</a>
+        <a href="#faq">常见问题</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
